@@ -3,6 +3,7 @@ chardet==3.0.4
 decorator==4.3.0
 docutils==0.14
 ebaysdk==2.1.5
+<<<<<<< Updated upstream
 gevent==1.1.2 ; sys_platform != 'win32' and python_version < '3.7'
 gevent==1.5.0 ; python_version >= '3.7'
 gevent==1.4.0 ; sys_platform == 'win32' and python_version < '3.7'
@@ -14,6 +15,20 @@ lxml==3.7.1 ; sys_platform != 'win32' and python_version < '3.7'
 lxml==4.3.2 ; sys_platform != 'win32' and python_version >= '3.7'
 lxml ; sys_platform == 'win32'
 Mako==1.0.7
+=======
+freezegun==0.3.11; python_version < '3.8'
+freezegun==0.3.15; python_version >= '3.8'
+gevent==1.5.0 ; python_version == '3.7'
+gevent==20.9.0 ; python_version > '3.7' and python_version <= '3.9'
+gevent==21.8.0 ; python_version > '3.9'  # (Jammy)
+greenlet==0.4.15 ; python_version == '3.7'
+greenlet==0.4.17 ; python_version > '3.7' and python_version <= '3.9'
+greenlet==1.1.2 ; python_version  > '3.9'  # (Jammy)
+idna==2.8
+Jinja2==2.11.3 # min version = 2.10.1 (Focal - with security backports)
+libsass==0.21.0
+lxml==4.6.5 # min version = 4.5.0 (Focal - with security backports)
+>>>>>>> Stashed changes
 MarkupSafe==1.1.0
 mock==2.0.0
 num2words==0.5.6
@@ -31,7 +46,13 @@ pyparsing==2.2.0
 PyPDF2==1.26.0
 pyserial==3.4
 python-dateutil==2.7.3
+<<<<<<< Updated upstream
 pytz==2019.1
+=======
+python-ldap==3.4.0 ; sys_platform != 'win32'  # min version = 3.2.0 (Focal with security backports)
+python-stdnum==1.16
+pytz==2019.3
+>>>>>>> Stashed changes
 pyusb==1.0.2
 qrcode==6.1
 reportlab==3.5.13
